@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Allan Kehl - Desenvolvedor Front-End Freelancer</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+  <!-- HOSTED -->
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+
+  <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+
+  <!-- LOCAL -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/>
+
+  <link href="devicons/css/devicons.min.css" media="all" rel="stylesheet" />
+
+  <link href="uikit/css/uikit.min.css" media="all" rel="stylesheet" />
+
+  <!-- HOSTED -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+  <!-- LOCAL -->
+
+  <script src="js/pt.min.js"></script>
+
+  <script src="js/index.js"></script>
+
+  <script src="js/modal.js"></script>
+
+  <script src="uikit/js/uikit.min.js"></script>
+
+  <script src="uikit/js/uikit-icons.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="overflow-wrap">
+
+<!-- HOME -->
+
+  <div class="modal-wrap flex">
+
+    <div class="mask"></div>
+
+    <div class="modal" id="modal">
+
+      <div class="carousel-wrap">
+
+        <div class="window">
+
+          <div id="carousel">
+
+          <div class="slide"></div>
+
+          <div class="slide"></div>
+
+          <div class="slide"></div>
+
+          </div>
+
+          <i class="mdi mdi-chevron-left" id="prev"></i>
+
+          <i class="mdi mdi-chevron-right" id="next"></i>
+
+        </div>
+
+      </div>
+
+      <div class="info-box">
+
+        <div class="title"></div>
+
+        <div class="tag"></div>
+
+        <div class="detail"></div>
+
+        <a href="#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
+
+      </div>
+
+      <i class="close mdi mdi-close"></i>
+
+    </div>
+
+  </div>
+
+  <section id="home" class="flex height-fix">
+
+    <div id="pt" class="canvas"></div>
+    <div class="flex intro-section">
+
+      <div class="text">
+
+        <span data-i18n="[prepend]intro.title"><span class="highlight"> Allan Kehl</span>.</span>
+
+        <br>
+
+        <div data-i18n="intro.subtitle"></div>
+
+      </div>
+
+      <div class="lang-div">
+        <ul class="lang-ul">
+          <li>
+            <a href="#" class="lang-select lang-a">en</a>
+          </li>
+          <li>
+            <a href="#" class="lang-select lang-a">pt</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="button page-link" dest="about" data-i18n="[prepend]intro.seework"><i class="mdi mdi-arrow-right"></i></div>
+
+      <nav class="flex">
+
+        <div class="link-wrap nav">
+
+          <div class="active page-link" dest="home" data-i18n="nav.home"></div>
+
+          <div class="page-link" dest="about" data-i18n="nav.about"></div>
+
+          <div class="page-link" dest="portfolio" data-i18n="nav.portfolio"></div>
+
+          <div class="page-link" dest="contact" data-i18n="nav.contact"></div>
+
+        </div>
+
+        <i class="mdi mdi-menu"></i>
+
+      </nav>
+
+    </div>
+
+  </section>
+
+<!-- ABOUT -->
+
+  <section id="about">
+
+    <div class="container flex about-section">
+
+      <div class="header waypoint" data-animation="slide-in-left" data-i18n="about.about"></div>
+
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+      <div class="flex row label-wrap">
+
+        <div class="flex row-gt-sm">
+
+        <div class="flex bullet-wrap ">
+
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+
+            <div class="hexagon">
+
+              <i class="mdi mdi-speedometer"></i>
+
+            </div>
+
+          </div>
+
+          <div class="waypoint" data-animation="fade-in">
+
+            <div class="label bold" data-i18n="about.speed"></div>
+
+            <div data-i18n="about.speedtext"></div>
+
+          </div>
+
+        </div>
+
+        <div class="flex bullet-wrap " >
+
+          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+
+            <div class="hexagon">
+
+              <i class="mdi mdi-cellphone-link"></i>
+
+            </div>
+
+          </div>
+
+          <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+
+            <div class="label bold" data-i18n="about.respon"></div>
+
+            <div data-i18n="about.respontext"></div>
+
+          </div>
+
+        </div>
+
+        </div>
+
+        <div class="flex row-gt-sm">
+
+          <div class="flex bullet-wrap " >
+
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+
+              <div class="hexagon">
+
+                <i class="mdi mdi-lightbulb-outline"></i>
+
+              </div>
+
+            </div>
+
+            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+
+              <div class="label bold" data-i18n="about.intuitive"></div>
+
+              <div data-i18n="about.intuitivetext"></div>
+
+            </div>
+
+          </div>
+
+          <div class="flex bullet-wrap " >
+
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+
+              <div class="hexagon">
+
+                <i class="mdi mdi-rocket"></i>
+
+              </div>
+
+            </div>
+
+            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+
+              <div class="label bold" data-i18n="about.dynamic"></div>
+
+              <div data-i18n="about.dynamictext"></div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="skills-wrapper flex row-gt-sm">
+
+        <div class="flex flex-50-gt-sm waypoint skills-section" data-animation="slide-in-left">
+
+          <img src="img/me.png" class="me">
+
+          <div class="label bold" data-i18n="skills.whoami"></div>
+
+          <div>
+
+            <span data-i18n="skills.whoamitext"></span>
+
+            <span class="page-link highlight" dest="contact" data-i18n="skills.effectp"></span>
+
+          </div>
+
+        </div>
+
+         <div id="myCanvasContainer" style="height:500px;">
+
+            <canvas width="500" height="500" id="myCanvas">
+                <ul>
+                    <li> <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML 5</a></li>
+                    <li><a data-weight="25" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS 3</a></li>
+                    <li><a data-weight="22" href="https://en.wikipedia.org/wiki/UI Design" target="_blank">UI/UX</a></li>
+                    <li><a data-weight="25" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a></li>
+                    <li><a data-weight="24" href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">REST</a></li>
+                    <li><a data-weight="21" href="https://en.wikipedia.org/wiki/Ajax_(programming)" target="_blank">AJAX</a></li>
+                    <li><a data-weight="14" href="https://en.wikipedia.org/wiki/JSON" target="_blank">JSON</a></li>
+                    <li><a data-weight="13" href="https://en.wikipedia.org/wiki/XML" target="_blank">XML</a></li>
+                    <li><a data-weight="27" href="https://en.wikipedia.org/wiki/AngularJS" target="_blank">Angular JS</a></li>
+                    <li><a data-weight="26" href="https://en.wikipedia.org/wiki/WordPress" target="_blank">Wordpress</a></li>
+                    <li><a data-weight="22" href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a></li>
+                    <li><a data-weight="22" href="https://en.wikipedia.org/wiki/MySQL" target="_blank">MySQL</a></li>
+                    <li><a data-weight="22" href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank">PostgreSQL</a></li>
+                    <li><a data-weight="21" href="https://en.wikipedia.org/wiki/Node.js" target="_blank">Node JS</a></li>
+                    <li><a data-weight="17" href="https://en.wikipedia.org/wiki/Git" target="_blank">Git</a></li>
+                    <li><a data-weight="20" href="https://vuejs.org/" target="_blank">Vue.js</a></li>
+                    <li><a data-weight="23" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap</a></li>
+                    <li><a data-weight="15" href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank">LESS</a></li>
+                    <li><a data-weight="20" href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">GruntJS</a></li>
+                    <li><a data-weight="20" href="https://en.wikipedia.org/wiki/Gulp" target="_blank">Gulp</a></li>
+                    <li><a data-weight="19" href="https://en.wikipedia.org/wiki/JQuery" target="_blank">jQuery</a></li>
+                    <li><a data-weight="19" href="http://mongoosejs.com/" target="_blank">Mongo DB</a></li>
+                    <li><a data-weight="19" href="https://www.npmjs.com/" target="_blank">npm</a></li>
+                    <li><a data-weight="19" href="https://en.wikipedia.org/wiki/Canvas_element" target="_blank">Canvas</a></li>
+                    <li><a data-weight="19" href="https://en.wikipedia.org/wiki/Windows" target="_blank">Windows</a></li>
+                    <li><a data-weight="19" href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a></li>
+                </ul>
+            </canvas>
+
+        </div>
+
+        <!-- <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:90%">
+
+              <div class="tag bold flex"><span class="devicons devicons-css3 dev-size" uk-tooltip="pos: top-left" title="CSS3"></span></div>
+
+            </div>
+
+            <span>90%</span>
+
+          </div>
+
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:90%">
+
+              <div class="tag bold flex"><span class="devicons devicons-html5 dev-size" data-uk-tooltip="" title="HTML5"></span></div>
+
+            </div>
+
+            <span>90%</span>
+
+          </div>
+
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:90%">
+
+              <div class="tag bold flex"><span class="devicons devicons-javascript dev-size" data-uk-tooltip="" title="JavaScript"></span></div>
+
+            </div>
+
+            <span>90%</span>
+
+          </div>
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:90%">
+
+              <div class="tag bold flex"><span class="devicons devicons-jquery dev-size" data-uk-tooltip="" title="jQuery"></span></div>
+
+            </div>
+
+            <span>90%</span>
+
+          </div>
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:100%">
+
+              <div class="tag bold flex"><span class="devicons devicons-bootstrap dev-size" data-uk-tooltip="" title="Bootstrap"></span></div>
+
+            </div>
+
+            <span>100%</span>
+
+          </div>
+
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:10%">
+
+              <div class="tag bold flex"><span class="devicons devicons-angular dev-size" data-uk-tooltip="" title="Angular"></span></div>
+
+            </div>
+
+            <span>10%</span>
+
+          </div>
+
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:50%">
+
+              <div class="tag bold flex">UI Design</div>
+
+            </div>
+
+            <span>50%</span>
+
+          </div>
+
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:70%">
+
+              <div class="tag bold flex"><span class="devicons devicons-php dev-size" data-uk-tooltip="" title="PHP"></span></div>
+
+            </div>
+
+            <span>70%</span>
+
+          </div>
+
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:10%">
+
+              <div class="tag bold flex"><span class="devicons devicons-python dev-size" data-uk-tooltip="" title="Python"></span></div>
+
+            </div>
+
+            <span>10%</span>
+
+          </div>
+
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:20%">
+
+              <div class="tag bold flex"><span class="devicons devicons-photoshop dev-size" data-uk-tooltip="" title="Photoshop"></span></div>
+
+            </div>
+
+            <span>20%</span>
+
+          </div>
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:100%">
+
+              <div class="tag bold flex"><span class="devicons devicons-postgresql dev-size" data-uk-tooltip="" title="PostgreSQL"></span></div>
+
+            </div>
+
+            <span>100%</span>
+
+          </div>
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:100%">
+
+              <div class="tag bold flex"><span class="devicons devicons-mysql dev-size" data-uk-tooltip="" title="MySQL"></span></div>
+
+            </div>
+
+            <span>100%</span>
+
+          </div>
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:70%">
+
+              <div class="tag bold flex"><span class="devicons devicons-wordpress dev-size" data-uk-tooltip="" title="Wordpress"></span></div>
+
+            </div>
+
+            <span>70%</span>
+
+          </div>
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:100%">
+
+              <div class="tag bold flex"><span class="devicons devicons-windows dev-size" data-uk-tooltip="" title="Windows"></span></div>
+
+            </div>
+
+            <span>100%</span>
+
+          </div>
+
+
+          <div class="bar flex">
+
+            <div class="bar fill" style="width:80%">
+
+              <div class="tag bold flex"><span class="devicons devicons-linux dev-size" data-uk-tooltip="" title="Linux"></span></div>
+
+            </div>
+
+            <span>80%</span>
+
+          </div>
+
+
+        </div> -->
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+<!-- PORTFOLIO -->
+
+  <section class="flex portfolio-section" id="portfolio">
+
+
+    <div class="header waypoint" data-animation="slide-in-right" data-i18n="portfolio.title"></div>
+
+    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+
+    <div class="filter-wrap waypoint" data-animation="fade-in">
+
+      <div class="flex row">
+
+        <div class="filter" data-filter="all" data-i18n="portfolio.all"></div>
+
+        <div class="filter" data-filter=".html">HTML/CSS</div>
+
+        <div class="filter" data-filter=".vue">Vue.js</div>
+
+      </div>
+
+      <div class="float-bar">
+
+        <div class="flex row">
+
+          <div class="filter" data-filter="all" data-i18n="portfolio.all"></div>
+
+          <div class="filter" data-filter=".html">HTML/CSS</div>
+
+          <div class="filter" data-filter=".vue">Vue.js</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div id="gallery" class="container flex row wrap waypoint">
+
+    	<div class="mix html" data-my-order="1">
+
+	        <div>
+
+				<div class="card"></div>
+
+					<div class="text">
+
+						<div class="bold">Parallax</div>
+
+						<span class="highlight">HTML e CSS</span>
+
+					</div>
+
+				<div class="button" id="parallax" data-i18n="portfolio.knowmore"></div>
+
+	        </div>
+
+      </div>
+
+	<div class="mix vue" data-my-order="2">
+
+		<div>
+
+			<div class="card"></div>
+
+				<div class="text">
+
+					<div class="bold">Notas</div>
+
+					<span class="highlight">Vue.js</span>
+
+				</div>
+
+			<div class="button" id="quote" data-i18n="portfolio.knowmore"></div>
+
+		</div>
+
+	</div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+
+      <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+
+    </svg>
+
+    <div class="container flex contact-section">
+
+      <div class="header waypoint" data-animation="slide-in-left" data-i18n="contact.title"></div>
+
+      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+
+      <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s" data-i18n="contact.text"></div>
+
+      <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
+
+        <input placeholder="Email" type="email" name="email" required>
+
+        <textarea data-i18n="contact.messagesend" type="text" name="message"></textarea>
+
+        <div id="success">
+
+          <div data-i18n="[prepend]contact.success"><span id="close" class="mdi mdi-close"></span></div>
+
+        </div>
+
+        <input class="button" type="submit" id="submit" data-i18n="contact.send">
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+
+  <footer>
+
+    <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+    <div class="icon-wrap flex row">
+
+      <a href="https://www.linkedin.com/in/allan-kehl-137053141/">
+
+        <div class="flex icon" id="icon-2">
+
+          <i class="mdi mdi-linkedin"></i>
+
+        </div>
+
+      </a>
+
+      <a href="https://www.facebook.com/allan.kehl.7">
+
+        <div class="flex icon" id="icon-3">
+
+          <i class="mdi mdi-facebook"></i>
+
+        </div>
+
+      </a>
+
+    </div>
+
+    <div class="info-box">
+
+      <div class="footnote">ALLAN KEHL <span class="highlight">&copy;2017-2018</span></div>
+
+    </div>
+
+  </footer>
+
+</div>
+
+</body>
+
+</html>
+<script src="js/tag.js"></script>
+<script src="js/canvas.js"></script>
+<script src="js/loc-i18next.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js" ></script>
+<script type="text/javascript">
+  // use plugins and options as needed, for options, detail see
+  // http://i18next.com/docs/
+  i18next.init({               /*************  ATUALIZAR TEXTOS *************/
+    detectLngQS: 'lang',
+    fallbackLng: ['en', 'pt'],
+    lng: 'pt', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
+    resources: { // evtl. load via xhr https://github.com/i18next/i18next-xhr-backend
+      en: {
+        translation: {
+          intro: {
+            title: "Hello, I'm",
+            subtitle: "I'm a full-stack developer.",
+            seework: "See my work"
+          },
+          nav: {
+            home: "home",
+            about: "about",
+            portfolio: "portfolio",
+            contact: "contact"
+          },
+          about: {
+            about: "ABOUT",
+            speed: "Speed",
+            speedtext: "Fast loading time and delay-free interaction, my highest priority.",
+            respon: "Responsiveness",
+            respontext: "Layouts work on any device, large or small.",
+            intuitive: "Intuitive",
+            intuitivetext: "Strong preference for UX / UI intuitive and easy to use.",
+            dynamic: "SEO",
+            dynamictext: "Websites already optimized for better rank in Google.",
+          },
+          skills: {
+            whoami: "Who I am?",
+            whoamitext: "I am a front-end/back-end developer working for Plenatech, Caxias do Sul, RS. <br> I like of UI/UX and I always search for innovation.",
+            effectp: "Let's make the present to create the future.",
+          },
+          portfolio: {
+            title: "PROJECTS",
+            all: "ALL",
+            knowmore: "KNOW MORE"
+          },
+          contact: {
+            title: "CONTACT",
+            text: "Do you have any questions or want any of my services?",
+            namesend: "Name",
+            messagesend: "Your message",
+            success: "Your message has been sent successfully. Thank you!",
+            send: "SUBMMIT"
+          }
+        }
+      },
+      pt: {
+        translation: {
+          intro: {
+            title: "Olá, eu sou",
+            subtitle: "Sou um desenvolvedor web full-stack.",
+            seework: "Veja meu trabalho"
+          },
+          nav: {
+            home: "inicio",
+            about: "sobre",
+            portfolio: "portfolio",
+            contact: "contato"
+          },
+          about: {
+            about: "SOBRE",
+            speed: "Velocidade",
+            speedtext: "Tempo de carregamento rápido e interação livre de atraso, minha maior prioridade.",
+            respon: "Responsividade",
+            respontext: "Layouts funcionam em qualquer dispositivo, grande ou pequeno.",
+            intuitive: "Intuitivo",
+            intuitivetext: "Forte preferência por UX/UI intuitiva e fácil de usar.",
+            dynamic: "SEO",
+            dynamictext: "Websites já optimizados para melhor posição no rank do Google.",
+          },
+          skills: {
+            whoami: "Quem eu sou?",
+            whoamitext: "Eu sou um desenvolvedor front-end/back-end atuando para Plenatech, Caxias do Sul, RS.<br>Eu gosto de UI/UX e sempre busco meios de inovar.<br>",
+            effectp: "Vamos fazer o presente para criar o futuro.",
+          },
+          portfolio: {
+            title: "PROJETOS",
+            all: "TODOS",
+            knowmore: "SAIBA MAIS"
+          },
+          contact: {
+            title: "CONTATO",
+            text: "Tem alguma pergunta ou deseja algum dos meus serviços?",
+            namesend: "Nome",
+            messagesend: "Sua mensagem",
+            success: "Sua mensagem foi enviada com sucesso. Obrigado!",
+            send: "ENVIAR"
+          }
+        }
+      }
+    }
+  }, function(err, t) {
+
+    localize = locI18next.init(i18next);
+
+    localize('.intro-section');
+    localize('.nav');
+    localize('.about-section');
+    localize('.skills-section');
+    localize('.portfolio-section');
+    localize('.contact-section');
+
+    $('.lang-select').click(function() {
+      i18next.changeLanguage(this.innerHTML);
+
+      localize('.intro-section');
+      localize('.nav');
+      localize('.about-section');
+      localize('.skills-section');
+      localize('.portfolio-section');
+      localize('.contact-section');
+    });
+  });
+</script>
